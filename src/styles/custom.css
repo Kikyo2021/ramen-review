@@ -1,0 +1,13 @@
+/* 自訂樣式 - 使用 amber 主色 */
+:root {
+	--sl-color-accent: 251, 191, 36; /* amber-400 */
+	--sl-color-accent-low: 217, 119, 6; /* amber-600 */
+	--sl-color-accent-high: 254, 243, 199; /* amber-100 */
+}
+
+/* 讓圖片在卡片中完整顯示 */
+.card img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+}
