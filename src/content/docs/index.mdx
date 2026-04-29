@@ -4,12 +4,17 @@ description: 基於 1520 則真實評論分析
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import card1 from '../../assets/card-1.png';
+import card2 from '../../assets/card-2.png';
+import card3 from '../../assets/card-3.png';
+import card4 from '../../assets/card-4.png';
+import card5 from '../../assets/card-5.png';
 
 **文／錦燈｜真台灣拉麵王｜台北拉麵口碑地圖**
 
 ---
 
-「住日本一整年，都沒有吃過比這裡好吃的拉麵，特地飛回來吃。」這是藏味拉麵 Google Maps 上 1520 則評論中，最讓人震撼的一句話。
+「住日本一整年，都沒有吃過比這裡好吃的拉麵,特地飛回來吃。」這是藏味拉麵 Google Maps 上 1520 則評論中，最讓人震撼的一句話。
 
 這家藏在中和景安站後方巷弄、只有八個座位的小店，究竟有什麼魔力？
 
@@ -17,19 +22,19 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid>
   <Card title="封面">
-    ![封面](/card-1.png)
+    <img src={card1.src} alt="封面" />
   </Card>
   <Card title="數據分析">
-    ![數據](/card-2.png)
+    <img src={card2.src} alt="數據" />
   </Card>
   <Card title="三大必吃理由">
-    ![亮點](/card-3.png)
+    <img src={card3.src} alt="亮點" />
   </Card>
   <Card title="客人評價">
-    ![評價](/card-4.png)
+    <img src={card4.src} alt="評價" />
   </Card>
   <Card title="店家資訊">
-    ![資訊](/card-5.png)
+    <img src={card5.src} alt="資訊" />
   </Card>
 </CardGrid>
 
