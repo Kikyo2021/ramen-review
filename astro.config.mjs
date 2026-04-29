@@ -6,6 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://kikyo2021.github.io',
 	base: '/ramen-review',
+	trailingSlash: 'always',
 	integrations: [
 		starlight({
 			title: '🍜 真台灣拉麵王',
