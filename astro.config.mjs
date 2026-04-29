@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://kikyo2021.github.io',
+	base: '/ramen-review',
 	integrations: [
 		starlight({
 			title: '🍜 真台灣拉麵王',
